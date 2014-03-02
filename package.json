@@ -1,0 +1,21 @@
+{
+  "name": "image-optim",
+  "version": "0.1.0",
+  "description": "Optimize Images With Optipng and Jpegtran",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbspk/image-optim"
+  },
+  "keywords": [
+    "image-optimization",
+    "optipng",
+    "jpegtran"
+  ],
+  "author": "http://github.com/sbspk/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbspk/image-optim/issues"
+  },
+  "homepage": "https://github.com/sbspk/image-optim"
+}
