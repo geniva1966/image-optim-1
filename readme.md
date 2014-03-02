@@ -17,15 +17,15 @@ npm install image-optim
 
 ```js
 
-	var optimizer = require('image-optim');
+var optimizer = require('image-optim');
 
-	optimizer.optimize('path-to-image', function(err) {
+optimizer.optimize('path-to-image', function(err) {
 
-		if(err) return console.log(err);
-	
-		console.log('Successfully Optimized');
+	if(err) return console.log(err);
 
-	})
+	console.log('Successfully Optimized');
+
+})
 
 ```
 
