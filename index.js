@@ -6,6 +6,7 @@
     var os = require('os');
     var tmpDir = os.tmpDir();
     var crypto = require('crypto');
+    var fs = require('fs');
 
     if (process.platform === 'darwin') platform = 'osx';
 
