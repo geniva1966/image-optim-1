@@ -133,7 +133,7 @@
 
                             if (err) return _complete(err);
 
-                            if (newStat.size >= actualStat.size) return _complete(new Error('Unable to optimize image, The image seems to be previously optimized.'));
+                            if (newStat.size >= actualStat.size) return _complete(new Error('Unable to optimize image, The image is already optimized by any other program.'));
 
                             var rs = fs.createReadStream(tmpFileName);
 
